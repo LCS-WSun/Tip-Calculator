@@ -15,6 +15,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    //MARK: properties (outlets)
+    @outlet weak var :UIlabel!
+    
+    //MARK: Methods (actions)
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+    
+    
 
 }
 
