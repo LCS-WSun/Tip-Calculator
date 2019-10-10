@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		8211F3D5234F82EC00FC8C78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211F3D4234F82EC00FC8C78 /* AppDelegate.swift */; };
 		8211F3D7234F82EC00FC8C78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211F3D6234F82EC00FC8C78 /* ViewController.swift */; };
-		8211F3DA234F82EC00FC8C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8211F3D8234F82EC00FC8C78 /* Main.storyboard */; };
+		8211F3DA234F82EC00FC8C78 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8211F3D8234F82EC00FC8C78 /* Launch.storyboard */; };
 		8211F3DC234F82EE00FC8C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8211F3DB234F82EE00FC8C78 /* Assets.xcassets */; };
-		8211F3DF234F82EE00FC8C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8211F3DD234F82EE00FC8C78 /* LaunchScreen.storyboard */; };
+		8211F3DF234F82EE00FC8C78 /* Primary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8211F3DD234F82EE00FC8C78 /* Primary.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8211F3D1234F82EC00FC8C78 /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8211F3D4234F82EC00FC8C78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8211F3D6234F82EC00FC8C78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8211F3D9234F82EC00FC8C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8211F3D9234F82EC00FC8C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Launch.storyboard; sourceTree = "<group>"; };
 		8211F3DB234F82EE00FC8C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8211F3DE234F82EE00FC8C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8211F3DE234F82EE00FC8C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Primary.storyboard; sourceTree = "<group>"; };
 		8211F3E0234F82EE00FC8C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,9 +56,9 @@
 			children = (
 				8211F3D4234F82EC00FC8C78 /* AppDelegate.swift */,
 				8211F3D6234F82EC00FC8C78 /* ViewController.swift */,
-				8211F3D8234F82EC00FC8C78 /* Main.storyboard */,
+				8211F3D8234F82EC00FC8C78 /* Launch.storyboard */,
 				8211F3DB234F82EE00FC8C78 /* Assets.xcassets */,
-				8211F3DD234F82EE00FC8C78 /* LaunchScreen.storyboard */,
+				8211F3DD234F82EE00FC8C78 /* Primary.storyboard */,
 				8211F3E0234F82EE00FC8C78 /* Info.plist */,
 			);
 			path = "Tip Calculator";
@@ -122,9 +122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8211F3DF234F82EE00FC8C78 /* LaunchScreen.storyboard in Resources */,
+				8211F3DF234F82EE00FC8C78 /* Primary.storyboard in Resources */,
 				8211F3DC234F82EE00FC8C78 /* Assets.xcassets in Resources */,
-				8211F3DA234F82EC00FC8C78 /* Main.storyboard in Resources */,
+				8211F3DA234F82EC00FC8C78 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,20 +143,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8211F3D8234F82EC00FC8C78 /* Main.storyboard */ = {
+		8211F3D8234F82EC00FC8C78 /* Launch.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8211F3D9234F82EC00FC8C78 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Launch.storyboard;
 			sourceTree = "<group>";
 		};
-		8211F3DD234F82EE00FC8C78 /* LaunchScreen.storyboard */ = {
+		8211F3DD234F82EE00FC8C78 /* Primary.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8211F3DE234F82EE00FC8C78 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Primary.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
