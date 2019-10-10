@@ -22,6 +22,7 @@
 		8211F3DB234F82EE00FC8C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8211F3DE234F82EE00FC8C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Primary.storyboard; sourceTree = "<group>"; };
 		8211F3E0234F82EE00FC8C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8211F3E6234F89BF00FC8C78 /* Playground for tip app.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground for tip app.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				8211F3DB234F82EE00FC8C78 /* Assets.xcassets */,
 				8211F3DD234F82EE00FC8C78 /* Primary.storyboard */,
 				8211F3E0234F82EE00FC8C78 /* Info.plist */,
+				8211F3E6234F89BF00FC8C78 /* Playground for tip app.playground */,
 			);
 			path = "Tip Calculator";
 			sourceTree = "<group>";
