@@ -10,8 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: Properties
+    // outlets, variables, and constants you want to use anywhere below
+    @IBOutlet weak var billAmount: UITextField!
+    
+
+    @IBOutlet weak var tipPercentage: UITextField!
+    
+    @IBOutlet weak var splitBetweenHowManyPeople: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
+        
+        
 
         // Do any additional setup after loading the view.
     }
@@ -26,5 +43,10 @@ class ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    // MARK: Actions
+    
 
+    @IBAction func SplitBetweenHowManyPeople(_ sender: Any) {
+    }
 }

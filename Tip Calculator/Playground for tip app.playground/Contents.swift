@@ -25,8 +25,7 @@ let splitBetweenHowManyPeopleAsDouble = Double(splitBetweenHowManyPeopleAsString
 
 // 2. PROCESS
 let tipAmountInDollars = tipPercentageAsDouble * billAmountAsDouble
-
-
+let tipPerPerson = tipAmountInDollars / splitBetweenHowManyPeopleAsDouble 
 
 
 
